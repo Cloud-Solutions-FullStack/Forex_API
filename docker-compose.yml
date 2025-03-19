@@ -1,0 +1,14 @@
+services:
+  forexconnect:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./app:/app
+      - forex_data:/app/FX
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python /app/Data.py
+
+volumes:
+  forex_data:

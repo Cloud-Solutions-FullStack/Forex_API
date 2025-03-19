@@ -1,0 +1,5 @@
+pandas
+forexconnect
+datetime
+scipy
+python-dotenv

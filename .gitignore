@@ -1,0 +1,11 @@
+# Ignore History directory
+History/
+app/History/
+
+# Ignore environment files
+.ENV
+.env
+*.env
+
+# Python related files
+__pycache__/
